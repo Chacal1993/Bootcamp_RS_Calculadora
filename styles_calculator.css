@@ -1,12 +1,12 @@
-body{
+body {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     justify-content: center;
     align-content: center;
     column-gap: 30px;
 }
-.cuerpo{
+.cuerpo {
     background: gainsboro;
     display: inline-grid;
     border: 1px solid gainsboro;
@@ -14,27 +14,27 @@ body{
     padding: 3px;
 }
 
-.historico{
+.historico {
     display: inline-grid;
     border: 1px solid gainsboro;
     border-radius: 10px;
-    grid-template-columns: 200px ;
+    grid-template-columns: 200px;
     grid-template-rows: 50px auto;
 }
 
-.historico > .calculadora{
+.historico > .calculadora {
     background-color: gainsboro;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.historico > #log{
+.historico > #log {
     width: 100%;
-    overflow-y:scroll;
+    overflow-y: scroll;
+    max-height: 340px;
 }
-#marco{
-    display: inline-grid;    
+#marco {
+    display: inline-grid;
     font-size: larger;
     align-items: center;
     justify-items: center;
@@ -43,32 +43,31 @@ body{
     grid-template-rows: 50px 50px 50px 50px;
 }
 
-#display{
-    
+#display {
     display: inline-grid;
     justify-content: center;
-    grid-template-columns: 200px ;
+    grid-template-columns: 200px;
     grid-template-rows: 20px 120px;
     width: 100%;
 }
 
-#display > #input1{
-    text-align:right;
+#display > #input1 {
+    text-align: right;
     background-color: white;
     font-size: 2em;
-    overflow-x:scroll;
+    overflow-x: scroll;
 }
 
-.boton{
+.boton {
     width: 100%;
     height: 100%;
 }
 
-.boton > span{
+.boton > span {
     font-weight: bold;
     font-size: large;
 }
 
-.boton > strong{
+.boton > strong {
     font-size: medium;
 }

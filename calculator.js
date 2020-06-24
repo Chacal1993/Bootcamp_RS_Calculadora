@@ -43,6 +43,8 @@ document.getElementById("cero").addEventListener("click", function () {
 
 //operaciones
 
+
+
 document.getElementById("mas").addEventListener("click", function () {
     document.getElementById("input1").innerHTML += "+";
 });
@@ -73,7 +75,6 @@ document.getElementById("igual").addEventListener("click", function () {
     var node = document.createElement("h4");
     var textnode = document.createTextNode(operacionHistorico);
     node.appendChild(textnode);
-
     document.getElementById("log").appendChild(node)
 
     document.getElementById("input1").innerHTML = "";
